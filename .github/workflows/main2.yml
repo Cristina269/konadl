@@ -5,7 +5,7 @@ on:
     branches: [ master ]
   schedule:
     # 每天UTC时间10:00运行
-    - cron: '0 10 * * *'
+    - cron: '0 13 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
