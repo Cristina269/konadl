@@ -28,7 +28,7 @@ def genConfig(Path,LastID):
   "RATINGS": {
     "safe": false,
     "questionable": false,
-    "explicit": false
+    "explicit": true
   },
   "STATISTICS": {
     "total_downloads": 0,
