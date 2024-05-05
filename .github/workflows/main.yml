@@ -4,8 +4,8 @@ on:
   push:
     branches: [ master ]
   schedule:
-    # 每天UTC时间00:00运行
-    - cron: '0 */2 * * *'
+    # 每天UTC时间10:00运行
+    - cron: '0 10 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
